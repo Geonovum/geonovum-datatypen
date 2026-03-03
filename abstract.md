@@ -1,1 +1,1 @@
-TODO: vul in abstract.md een abstract in.
+Dit informatiemodel bevat alle primitieve datatypen die in informatiemodellen van Geonovum worden gebruikt.
