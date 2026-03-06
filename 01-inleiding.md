@@ -11,4 +11,4 @@ Een groepering van primitieve datatypen is naar onderdelen van de basisstandaard
 
 - Overige nog primitieven die niet in bovenstaande groepen vallen.
 
-Dit informatiemodel is conform MIM 1.2 weergegeven en bevat een begrippenmodel (TODO)(vocabulaire) conform NL-SBB.
+Dit informatiemodel is conform MIM 1.2 weergegeven en bevat een begrippenmodel conform [[NL-SBB-20241010]].
