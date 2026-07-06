@@ -1,1 +1,1 @@
-Dit informatiemodel bevat alle primitieve datatypen die in informatiemodellen van Geonovum worden gebruikt.
+Deze primitieve datatypen zijn een restgroep omdat ze wel worden gebruikt in een aantal door Geonovum beheerde informatiemodellen maar niet behoren tot  de twee andere geïdentificeerde groepen primitieve datatypen ISO 19107 of MIM.
