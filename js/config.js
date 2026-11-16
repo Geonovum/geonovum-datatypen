@@ -2,14 +2,14 @@ let respecConfig = {
   useLogo: true,
   useLabel: true,
 
-  // TODO: title is verplicht! Neem hieronder de titel van het document op
+  // title is verplicht! Neem hieronder de titel van het document op
   title: "Geonovum datatypen",
   //-- specStatus is verplicht! (activeer 1 van de volgende)
   // specStatus: "wv",                 // Werkversie
   //specStatus: "cv",               // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
   //specStatus: "def",              // Vastgestelde versie
-  specStatus: "basis",            // Basis Document
+  specStatus: "ld",            // Levend document
 
   //-- specType is verplicht bij alle andere dan BASIS
   //specType: "NO",                 // Norm
@@ -24,7 +24,6 @@ let respecConfig = {
 
   //-- pubDomain is verplicht! (komt in de URL)
   //-- zie: https://geonovum.github.io/handleiding-tooling/ReSpec/#pubdomain
-  //-- TODO: vul pubDomain in
   pubDomain: "gnm",
 
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
@@ -32,7 +31,7 @@ let respecConfig = {
   //license: "cc0",                 // Public Domain Dedication
   license: "cc-by",                 // Attribution, met bronvermelding
 
-  //-- TODO shortName is verplicht! (komt in de URL: kies logische afkorting)
+  //-- shortName is verplicht! (komt in de URL: kies logische afkorting)
   //-- Regel: shortName mag geen hoofdletters bevatten.
   shortName: "geonovum-datatypen",
   
