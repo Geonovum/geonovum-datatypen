@@ -95,7 +95,7 @@ body:has(input[name=color-scheme][value=dark]:checked){color-scheme:dark}
 img.license{float:left;padding-right:5px;background:0 0}
 </style>
 <meta name="color-scheme" content="light">
-<meta name="description" content="Deze primitieve datatypen zijn een restgroep omdat ze wel worden gebruikt in een aantal door Geonovum beheerde informatiemodellen maar niet behoren tot  de twee andere geïdentificeerde groepen primitieve datatypen ISO 19107 of MIM.">
+<meta name="description" content="Deze primitieve datatypen zijn een restgroep omdat ze wel worden gebruikt in een aantal door Geonovum beheerde informatiemodellen maar niet te herleiden zijn tot  de twee andere geïdentificeerde groepen primitieve datatypen ISO 19107 of MIM. Uiteindelijk is het de bedoeling dat ieder gebruikt datatype in een Geonovum informatiemodel herleidbaar is naar een andere standaard. Op dat moment is dit document overbodig geworden.">
 <style>
 
   .sidelabel {
@@ -1326,6 +1326,7 @@ img.license{float:left;padding-right:5px;background:0 0}
   "specType": "HR",
   "pubDomain": "gnm",
   "shortName": "geonovum-datatypen",
+  "publishDate": "2026-11-17",
   "publishVersion": [],
   "editors": [
     {
@@ -1362,11 +1363,15 @@ img.license{float:left;padding-right:5px;background:0 0}
     <h2>
       Geonovum Handreiking<br>
       Levend document
-      <time class="dt-published" datetime="2026-11-16">16 november 2026</time>
+      <time class="dt-published" datetime="2026-11-17">17 november 2026</time>
     </h2>
     <dl>
-      
-      
+      <dt>Deze versie:</dt><dd class="status">
+              <a class="u-url status" href="https://docs.geostandaarden.nl/gnm/ld-hr-geonovum-datatypen-20261117">https://docs.geostandaarden.nl/gnm/ld-hr-geonovum-datatypen-20261117</a>
+            </dd>
+      <dt>Laatst gepubliceerde versie:</dt><dd>
+              <a href="https://docs.geostandaarden.nl/gnm/geonovum-datatypen/">https://docs.geostandaarden.nl/gnm/geonovum-datatypen/</a>
+            </dd>
       <dt>Laatste werkversie:</dt><dd><a href="https://geonovum.github.io/geonovum-datatypen/">https://geonovum.github.io/geonovum-datatypen/</a></dd>
       
       
@@ -1407,7 +1412,7 @@ img.license{float:left;padding-right:5px;background:0 0}
     <hr title="Separator for header">
   </div>
 
-<section id="abstract" class="introductory"><h2>Samenvatting</h2><p>Deze primitieve datatypen zijn een restgroep omdat ze wel worden gebruikt in een aantal door Geonovum beheerde informatiemodellen maar niet behoren tot  de twee andere geïdentificeerde groepen primitieve datatypen ISO 19107 of MIM.</p>
+<section id="abstract" class="introductory"><h2>Samenvatting</h2><p>Deze primitieve datatypen zijn een restgroep omdat ze wel worden gebruikt in een aantal door Geonovum beheerde informatiemodellen maar niet te herleiden zijn tot  de twee andere geïdentificeerde groepen primitieve datatypen ISO 19107 of MIM. Uiteindelijk is het de bedoeling dat ieder gebruikt datatype in een Geonovum informatiemodel herleidbaar is naar een andere standaard. Op dat moment is dit document overbodig geworden.</p>
 </section>
 <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een levend document dat regelmatig gewijzigd wordt.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">1. </bdi>Inleiding</a></li><li class="tocline"><a class="tocxref" href="#toepassingsgebied"><bdi class="secno">2. </bdi>Toepassingsgebied</a></li><li class="tocline"><a class="tocxref" href="#informele-beschrijving"><bdi class="secno">3. </bdi>Informele beschrijving</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#geonovum-datatypen-overige-primitieven-die-niet-in-bovenstaande-groepen-vallen"><bdi class="secno">3.1 </bdi>Geonovum datatypen. Overige primitieven die niet in bovenstaande groepen vallen.</a></li></ol></li><li class="tocline"><a class="tocxref" href="#begrippenkader"><bdi class="secno">4. </bdi>Begrippenkader</a></li><li class="tocline"><a class="tocxref" href="#cat"><bdi class="secno">5. </bdi>Gegevensdefinitie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#EAID_3F2B2788_0AB5_4fa3_BA47_93A8E6E2A920"><bdi class="secno">5.1 </bdi>   datatypen-overig - overzicht</a></li><li class="tocline"><a class="tocxref" href="#primitieve-datatypen"><bdi class="secno">5.2 </bdi>Primitieve datatypen   </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#global_class_datatypenoverig_Binary"><bdi class="secno">5.2.1 </bdi>Primitief datatype   Binary</a></li><li class="tocline"><a class="tocxref" href="#global_class_datatypenoverig_Time"><bdi class="secno">5.2.2 </bdi>Primitief datatype   Time</a></li><li class="tocline"><a class="tocxref" href="#global_class_datatypenoverig_GenericName"><bdi class="secno">5.2.3 </bdi>Primitief datatype   Generic­Name</a></li><li class="tocline"><a class="tocxref" href="#global_class_datatypenoverig_DoubleList"><bdi class="secno">5.2.4 </bdi>Primitief datatype   Double­List</a></li><li class="tocline"><a class="tocxref" href="#global_class_datatypenoverig_GM_SENTINEL"><bdi class="secno">5.2.5 </bdi>Primitief datatype   GM_SENTINEL</a></li><li class="tocline"><a class="tocxref" href="#global_class_datatypenoverig_GM_Geometrycollection"><bdi class="secno">5.2.6 </bdi>Primitief datatype   GM_Geometrycollection</a></li><li class="tocline"><a class="tocxref" href="#global_class_datatypenoverig_ScopedName"><bdi class="secno">5.2.7 </bdi>Primitief datatype   Scoped­Name</a></li><li class="tocline"><a class="tocxref" href="#global_class_datatypenoverig_GM_AbstractGMLType"><bdi class="secno">5.2.8 </bdi>Primitief datatype   GM_Abstract­GMLType</a></li><li class="tocline"><a class="tocxref" href="#global_class_datatypenoverig_GM_AbstractFeatureType"><bdi class="secno">5.2.9 </bdi>Primitief datatype   GM_Abstract­Feature­Type</a></li><li class="tocline"><a class="tocxref" href="#global_class_datatypenoverig_GM_AbstractFeatureCollection"><bdi class="secno">5.2.10 </bdi>Primitief datatype   GM_Abstract­Feature­Collection</a></li><li class="tocline"><a class="tocxref" href="#global_class_datatypenoverig_GM_AbstractFeatureMember"><bdi class="secno">5.2.11 </bdi>Primitief datatype   GM_Abstract­Feature­Member</a></li><li class="tocline"><a class="tocxref" href="#global_class_datatypenoverig_GM_AbstractFeature"><bdi class="secno">5.2.12 </bdi>Primitief datatype   GM_Abstract­Feature</a></li><li class="tocline"><a class="tocxref" href="#global_class_datatypenoverig_GM_MultiGeometry"><bdi class="secno">5.2.13 </bdi>Primitief datatype   GM_Multi­Geometry</a></li><li class="tocline"><a class="tocxref" href="#global_class_datatypenoverig_URL"><bdi class="secno">5.2.14 </bdi>Primitief datatype   URL</a></li><li class="tocline"><a class="tocxref" href="#global_class_datatypenoverig_TM_Period"><bdi class="secno">5.2.15 </bdi>Primitief datatype   TM_Period</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">A. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#informatieve-referenties"><bdi class="secno">A.1 </bdi>Informatieve referenties</a></li></ol></li></ol></nav>
 
